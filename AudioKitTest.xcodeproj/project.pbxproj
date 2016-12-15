@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A6D874A8C30F71D575FBDAF /* libPods-AudioKitTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0228FE79A6C410D6F2C448E9 /* libPods-AudioKitTest.a */; };
+		94360BE11E034E5B003E22DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94360BE01E034E5B003E22DF /* AppDelegate.swift */; };
+		94360BE31E034E5B003E22DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94360BE21E034E5B003E22DF /* ViewController.swift */; };
+		94360BE61E034E5B003E22DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94360BE41E034E5B003E22DF /* Main.storyboard */; };
+		94360BE81E034E5B003E22DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94360BE71E034E5B003E22DF /* Assets.xcassets */; };
+		94360BEB1E034E5B003E22DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94360BE91E034E5B003E22DF /* LaunchScreen.storyboard */; };
+		94360BF31E034EF5003E22DF /* TestTone.wav in Resources */ = {isa = PBXBuildFile; fileRef = 94360BF21E034EF5003E22DF /* TestTone.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0228FE79A6C410D6F2C448E9 /* libPods-AudioKitTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AudioKitTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		461FA5749436C385D1E57C62 /* Pods-AudioKitTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AudioKitTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AudioKitTest/Pods-AudioKitTest.debug.xcconfig"; sourceTree = "<group>"; };
+		786669CF683F7CA06B47C017 /* Pods-AudioKitTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AudioKitTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-AudioKitTest/Pods-AudioKitTest.release.xcconfig"; sourceTree = "<group>"; };
+		94360BDD1E034E5B003E22DF /* AudioKitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioKitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94360BE01E034E5B003E22DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		94360BE21E034E5B003E22DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		94360BE51E034E5B003E22DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		94360BE71E034E5B003E22DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		94360BEA1E034E5B003E22DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		94360BEC1E034E5B003E22DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94360BF21E034EF5003E22DF /* TestTone.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = TestTone.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94360BDA1E034E5B003E22DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A6D874A8C30F71D575FBDAF /* libPods-AudioKitTest.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0EBC93E97B1D7CE07F5FA33D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				461FA5749436C385D1E57C62 /* Pods-AudioKitTest.debug.xcconfig */,
+				786669CF683F7CA06B47C017 /* Pods-AudioKitTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		58C3176CB02874CF53C32D82 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0228FE79A6C410D6F2C448E9 /* libPods-AudioKitTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		94360BD41E034E5B003E22DF = {
+			isa = PBXGroup;
+			children = (
+				94360BDF1E034E5B003E22DF /* AudioKitTest */,
+				94360BDE1E034E5B003E22DF /* Products */,
+				0EBC93E97B1D7CE07F5FA33D /* Pods */,
+				58C3176CB02874CF53C32D82 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		94360BDE1E034E5B003E22DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94360BDD1E034E5B003E22DF /* AudioKitTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94360BDF1E034E5B003E22DF /* AudioKitTest */ = {
+			isa = PBXGroup;
+			children = (
+				94360BF21E034EF5003E22DF /* TestTone.wav */,
+				94360BE01E034E5B003E22DF /* AppDelegate.swift */,
+				94360BE21E034E5B003E22DF /* ViewController.swift */,
+				94360BE41E034E5B003E22DF /* Main.storyboard */,
+				94360BE71E034E5B003E22DF /* Assets.xcassets */,
+				94360BE91E034E5B003E22DF /* LaunchScreen.storyboard */,
+				94360BEC1E034E5B003E22DF /* Info.plist */,
+			);
+			path = AudioKitTest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94360BDC1E034E5B003E22DF /* AudioKitTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94360BEF1E034E5B003E22DF /* Build configuration list for PBXNativeTarget "AudioKitTest" */;
+			buildPhases = (
+				41ACE5B23C93AAF4DF784914 /* [CP] Check Pods Manifest.lock */,
+				94360BD91E034E5B003E22DF /* Sources */,
+				94360BDA1E034E5B003E22DF /* Frameworks */,
+				94360BDB1E034E5B003E22DF /* Resources */,
+				8F83057085ADC9A5B856D303 /* [CP] Embed Pods Frameworks */,
+				1A300E9F5A945F612CB5F3E6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AudioKitTest;
+			productName = AudioKitTest;
+			productReference = 94360BDD1E034E5B003E22DF /* AudioKitTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94360BD51E034E5B003E22DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Hello World Engineering";
+				TargetAttributes = {
+					94360BDC1E034E5B003E22DF = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 8233WYED92;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 94360BD81E034E5B003E22DF /* Build configuration list for PBXProject "AudioKitTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 94360BD41E034E5B003E22DF;
+			productRefGroup = 94360BDE1E034E5B003E22DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94360BDC1E034E5B003E22DF /* AudioKitTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94360BDB1E034E5B003E22DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94360BEB1E034E5B003E22DF /* LaunchScreen.storyboard in Resources */,
+				94360BE81E034E5B003E22DF /* Assets.xcassets in Resources */,
+				94360BF31E034EF5003E22DF /* TestTone.wav in Resources */,
+				94360BE61E034E5B003E22DF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A300E9F5A945F612CB5F3E6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AudioKitTest/Pods-AudioKitTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41ACE5B23C93AAF4DF784914 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8F83057085ADC9A5B856D303 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AudioKitTest/Pods-AudioKitTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94360BD91E034E5B003E22DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94360BE31E034E5B003E22DF /* ViewController.swift in Sources */,
+				94360BE11E034E5B003E22DF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		94360BE41E034E5B003E22DF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94360BE51E034E5B003E22DF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		94360BE91E034E5B003E22DF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94360BEA1E034E5B003E22DF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		94360BED1E034E5B003E22DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		94360BEE1E034E5B003E22DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94360BF01E034E5B003E22DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 461FA5749436C385D1E57C62 /* Pods-AudioKitTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8233WYED92;
+				INFOPLIST_FILE = AudioKitTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.helloworldengineering.AudioKitTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		94360BF11E034E5B003E22DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 786669CF683F7CA06B47C017 /* Pods-AudioKitTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8233WYED92;
+				INFOPLIST_FILE = AudioKitTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.helloworldengineering.AudioKitTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94360BD81E034E5B003E22DF /* Build configuration list for PBXProject "AudioKitTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94360BED1E034E5B003E22DF /* Debug */,
+				94360BEE1E034E5B003E22DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94360BEF1E034E5B003E22DF /* Build configuration list for PBXNativeTarget "AudioKitTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94360BF01E034E5B003E22DF /* Debug */,
+				94360BF11E034E5B003E22DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 94360BD51E034E5B003E22DF /* Project object */;
+}
